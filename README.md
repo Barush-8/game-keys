@@ -23,3 +23,9 @@ The last module valor_valido.py, i call it "the bone calcium" its not important.
 ## Important things.
 
 Basically  for Games_keys.py to work correclty you need list.py and fot list.py you need clasificacion.py and last but not least clasificacion.py needs valor_valido.py to worl properly. Its like a chain, thats because all the brain, bones, etc. similitudes and well another modules that i didnt create but i use it in some of the scripts.
+
+## Simulation.
+
+It is important to know that the code itself creates, if it does not exist, a file called datos.csv with initial values in the first row in list format, which are: [gender, year, platform, name, type, result, game_key].
+
+The code basically with each record made in the main (Games_keys.py) in the function agregar_juego() will save in the next row to the last a new row of data now with the data itself in the csv file to classify the added game and will print on the screen a key that we can use later. Later, if we use the redeem_key() function in the main, it will ask us for a game key, whether we received it in add_game() or from anywhere else. But when we redeem the key and it is correct, it will display a text with the metadata of our game based on the key we gave it.

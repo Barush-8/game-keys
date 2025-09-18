@@ -10,7 +10,7 @@ Is where the code works, inside Games_keys.py here i use the list module that i 
 
 ## list.py
 
-I call list.py "the brain" is where the main funtions agregar_juego(add a new game to the data base) and canjear_clave(where you can use a key to "obtain" your game) works and i use the modules os, csv,  ast and clasificacion(i create this last module because is important). You can create a game key with some questions about your game or simply exchange your game with a game key. Its important to follow all the steps to have the code working well. Here in agregar_juego() function is where the keys and all stuff related with the game is assigned to the datos.csv (You cant choose the file name yet maybe in the future). And most important agregar_juego() function is where 
+I call list.py "the brain" is where the main funtions agregar_juego(add a new game to the data base) and canjear_clave(where you can use a key to "obtain" your game) works and i use the modules os, csv,  ast and clasificacion(i create this last module because is important). You can create a game key with some questions about your game or simply exchange your game with a game key. Its important to follow all the steps to have the code working well. Here in agregar_juego() function is where the keys and all stuff related with the game is assigned to the datos.csv (You cant choose the file name yet maybe in the future). And most important agregar_juego() function is where you add the game to the csv.
 
 ## clasificacion.py
 
@@ -23,9 +23,3 @@ The last module valor_valido.py, i call it "the bone calcium" its not important.
 ## Important things.
 
 Basically  for Games_keys.py to work correclty you need list.py and fot list.py you need clasificacion.py and last but not least clasificacion.py needs valor_valido.py to worl properly. Its like a chain, thats because all the brain, bones, etc. similitudes and well another modules that i didnt create but i use it in some of the scripts.
-
-
-
-
-
-

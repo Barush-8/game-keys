@@ -1,0 +1,4 @@
+genero,anio,plataforma,nombre,tipo,resultado,clave_juego
+"['avt', 'aventura']","['24', '2024']","['ps', 'play station']","['astr', 'astrobot']","['gam', 'juego base']","['si', 'si']",avt24psastrgamsi
+"['rpg', 'rpg']","['24', '2024']","['ga', 'multiplataforma(gama alta)']","['elri', 'elden ring']","['gam', 'juego base']","['si', 'si gano ']",rpg24gaelrigamsi
+"['rpg', 'rpg']","['24', '2024']","['ga', 'multiplataforma(gama alta)']","['fif7', 'final fantasy 7']","['rmk', 'remake']","['no', 'no gano']",rpg24gafif7rmkno

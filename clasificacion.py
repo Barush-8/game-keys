@@ -30,7 +30,7 @@ def year():
                 global anio
                 anio=anio_list[yer]
                 if yer == len(year_list)-1:
-                    anio_real=input("año en que salio")
+                    anio_real=("año en que salio")
                     anio_real = vv.val_nel(anio_real)
                 else:
                     anio_real=year_list[yer]

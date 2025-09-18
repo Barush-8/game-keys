@@ -31,7 +31,7 @@ def val_nel(entrada):
                                 print(f"La palabra {entrance} tiene un espacio, es o tiene una expresion no valida como caracteres especiales(:,-,;,/,&,%,$,etc.)")
                     return n_palabras, respuestas
                 else:
-                    print("Por favor ingrese todas las palabras correctamente.")
+                    print("Por favor ingrese todas las palabras correctamente.(Posible error al no escribir un numero en decimal.)")
         #elif con condicion para limpiar la clave game_key de signos raros y mayus, devolver la clave "limpia"
         elif entrada==key:
             entrance=input(f"Dame tu {entrada} para poder canjearla: ")
